@@ -434,16 +434,11 @@ export default function ShopDetails() {
                                                 <span>{storeData?.StoreId}</span>
                                             </div>
                                             <div className="tpproduct-details__information tpproduct-details__categories">
-                                                <p>Categories:</p>
+                                                <p>Category:</p>
                                                 <span>
-                                                    <Link href="#">T-Shirts,</Link>
+                                                    <Link href="#">{storeData?.StoreCategory}</Link>
                                                 </span>
-                                                <span>
-                                                    <Link href="#">Tops,</Link>
-                                                </span>
-                                                <span>
-                                                    <Link href="#">Womens</Link>
-                                                </span>
+                                                
                                             </div>
                                             <div className="tpproduct-details__information tpproduct-details__tags">
                                                 <p>Tags:</p>
@@ -452,7 +447,8 @@ export default function ShopDetails() {
                                                     storeData?.StoreTags?.map((item, index) => {
                                                         return (
                                                             <span key={index}>
-                                                                <Link href="#">{item},</Link>
+                                                                <Link href="#">{item}</Link>
+                                                                {index < storeData.StoreTags.length - 1 ? ", " : ""}
                                                             </span>
                                                         )
                                                     })
