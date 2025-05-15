@@ -1,0 +1,73 @@
+.main_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_logo_p{
+    margin-bottom: 0px;
+    font-size: 2rem;
+}
+.main_logo_p > span {
+    color: #ff0000;
+}
+
+
+/* Base button styling */
+.header-logout {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 10px 10px;
+    background-color: #D61244;
+    color: white;
+    border-radius: 12px;
+    margin-inline: 5px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+
+/* Button hover state */
+.header-logout:hover {
+    background-color: black;
+    width: auto;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 10px 10px;
+    background-color: #D61244;
+    color: white;
+    border-radius: 12px;
+    margin-inline: 5px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    cursor: pointer;
+}
+.profile:hover {
+    background-color: black;
+    width: auto;
+    color: white;
+}
+
+.sidebar-logout {
+    width: auto;
+    color: white;
+    background-color: #D61244;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border-radius: 12px;
+    text-align: center;
+    padding-inline: 12px;
+    gap: 20px;
+}
+.sidebar-logout:hover {
+    background-color: white;
+    color: black;
+}

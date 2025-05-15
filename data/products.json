@@ -1,0 +1,752 @@
+[
+    {
+        "id": 1,
+        "title": "Kakinada",
+        "imgf": "https://media-cdn.tripadvisor.com/media/photo-s/16/ce/6b/71/main-entrance.jpg",
+        "imgb": "https://res.cloudinary.com/roundglass/image/upload/v1594976871/roundglass/sustain/coringa-godavari-mangrove-dhritiman-mukherjee_qlhmsu.jpg",
+        "category": [
+            {
+                "type": "Kids"
+            }
+        ],
+        "color": [
+            {
+                "type": "Black"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Adidas"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": "Coringa Wildlife Sanctuary"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Rajahmundry",
+        "imgf": "https://papikondalu.net.in/assets/images/papikondalu-tour-package-from-bhadrachalam-800x500.png",
+        "imgb": "http://aptourismpapikondalu.com/images/gallery/papikondalu_1day_tour_1.jpg",
+        "category": [
+            {
+                "type": "Mens"
+            }
+        ],
+        "color": [
+            {
+                "type": "Blue"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Balenciaga"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": "Papi Kondalu"
+        }
+    },
+    {
+        "id": 3,
+        "title": "Konaseema",
+        "imgf": "http://3.bp.blogspot.com/-4frme_rq_pk/VIWnjtRiLBI/AAAAAAAAQ6M/L48zfb3Vhnc/s1600/annavaram-%2Btemple-in-india-AP9.jpg",
+        "imgb": "https://hindupost.in/wp-content/uploads/2020/02/annavaram-1.jpg",
+        "category": [
+            {
+                "type": "Womens"
+            }
+        ],
+        "color": [
+            {
+                "type": "Gray"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Balmain"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": "Annavaram"
+        }
+    },
+    {
+        "id": 4,
+        "title": "Bhadrachalam",
+        "imgf": "https://famoustemplesofindia.com/wp-content/uploads/2023/10/Bhadrachalam-Temple-4-1024x768.jpg",
+        "imgb": "https://assets.hmtvlive.com/h-upload/2020/05/27/290124-bhadrachalam-temple.jpg",
+        "category": [
+            {
+                "type": "Mens"
+            }
+        ],
+        "color": [
+            {
+                "type": "Green"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Burberry"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": "Sri Sitaramachandra Swamy Temple"
+        }
+    },
+    {
+        "id": 5,
+        "title": "Kadiyapulanka",
+        "imgf": "https://lh5.googleusercontent.com/p/AF1QipPmQjuSS2Xhrc3Kz05zzpZK671y2Zjrc1TH5ihc=w592-h404-n-k-no-v1 ",
+        "imgb": "https://d3rk2wqy1pqubb.cloudfront.net/wp-content/uploads/2021/03/MURAMULLA-VEERESWARA-SWAmY.jpg",
+        "category": [
+            {
+                "type": "Kids"
+            }
+        ],
+        "color": [
+            {
+                "type": "Black"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Adidas"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": "Sri Veereswara Swamy Temple"
+        }
+    },
+    {
+        "id": 6,
+        "title": "Antarvedi",
+        "imgf": "https://tse3.mm.bing.net/th?id=OIP.wpF58uOkcMaGmtKwXo7OhgAAAA&pid=Api&P=0&h=180",
+        "imgb": "https://media-cdn.tripadvisor.com/media/photo-s/05/79/6d/50/sri-laxmi-narasimha-swamy.jpg",
+        "category": [
+            {
+                "type": "Mens"
+            }
+        ],
+        "color": [
+            {
+                "type": "Red"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Chloe"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": "Lakshmi Narasimha Swamy Temple"
+        }
+    },
+    {
+        "id": 7,
+        "title": "Kakinada",
+        "imgf": "http://4.bp.blogspot.com/-DNv9Ex6_eFo/UGBBknd1jrI/AAAAAAAAATw/7rqognQjoSI/s1600/RobCasey-2011-WA-SouthSound-HopeIsland-9300.jpg",
+        "imgb": "https://static.toiimg.com/thumb/width-800,height-600,msid-70771772.cms",
+        "category": [
+            {
+                "type": "Womens"
+            }
+        ],
+        "color": [
+            {
+                "type": "Blue"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Balenciaga"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": "Hope Island"
+        }
+    },
+    {
+        "id": 8,
+        "title": "Rajahmundry",
+        "imgf": "https://assets.hmtvlive.com/h-upload/2022/07/15/338507-dowleswaram-barrage.jpg",
+        "imgb": "https://i.ytimg.com/vi/7WwsYkZ0V9M/maxresdefault.jpg",
+        "category": [
+            {
+                "type": "Mens"
+            }
+        ],
+        "color": [
+            {
+                "type": "Gray"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Balmain"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": "Dowleshwaram Barrage"
+        }
+    },
+    {
+        "id": 9,
+        "title": "Konaseema",
+        "imgf": "https://i.ytimg.com/vi/46Vfj2k2DwQ/maxresdefault.jpg",
+        "imgb": "https://as1.ftcdn.net/v2/jpg/05/75/71/10/1000_F_575711019_uu3ZuMNOXoVKNs7D1AEkP8NgIAyLNpZz.jpg",
+        "category": [
+            {
+                "type": "Kids"
+            }
+        ],
+        "color": [
+            {
+                "type": "Green"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Burberry"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": "Razole Mangrove Forests"
+        }
+    },
+    {
+        "id": 10,
+        "title": "Bhadrachalam",
+        "imgf": "http://3.bp.blogspot.com/-lM7hElk4sHE/U6kl0Oe4VKI/AAAAAAAAAzo/OoS7Y3E3twM/s1600/PARNASALA.jpg",
+        "imgb": "https://hindupost.in/wp-content/uploads/2021/06/bhadrachalam.png",
+        "category": [
+            {
+                "type": "Womens"
+            }
+        ],
+        "color": [
+            {
+                "type": "Red"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Chloe"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": "Parnasala"
+        }
+    },
+    {
+        "id": 11,
+        "title": "Angel Jimenez",
+        "imgf": "product-21.jpg",
+        "imgb": "product-22.jpg",
+        "category": [
+            {
+                "type": "Kids"
+            }
+        ],
+        "color": [
+            {
+                "type": "Black"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Adidas"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": 20
+        }
+    },
+    {
+        "id": 12,
+        "title": "Phoebe Arnold",
+        "imgf": "product-23.jpg",
+        "imgb": "product-24.jpg",
+        "category": [
+            {
+                "type": "Mens"
+            }
+        ],
+        "color": [
+            {
+                "type": "Blue"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Balenciaga"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": 30
+        }
+    },
+    {
+        "id": 13,
+        "title": "Cordelia Ryan",
+        "imgf": "product-25.jpg",
+        "imgb": "product-26.jpg",
+        "category": [
+            {
+                "type": "Womens"
+            }
+        ],
+        "color": [
+            {
+                "type": "Gray"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Balmain"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": 40
+        }
+    },
+    {
+        "id": 14,
+        "title": "Louisa Conner",
+        "imgf": "product-27.jpg",
+        "imgb": "product-28.jpg",
+        "category": [
+            {
+                "type": "Mens"
+            }
+        ],
+        "color": [
+            {
+                "type": "Green"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Burberry"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": 40
+        }
+    },
+    {
+        "id": 15,
+        "title": "Elnora Swanson",
+        "imgf": "product-29.jpg",
+        "imgb": "product-30.jpg",
+        "category": [
+            {
+                "type": "Kids"
+            }
+        ],
+        "color": [
+            {
+                "type": "Black"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Adidas"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": 50
+        }
+    },
+    {
+        "id": 16,
+        "title": "Georgie Olson",
+        "imgf": "product-31.jpg",
+        "imgb": "product-32.jpg",
+        "category": [
+            {
+                "type": "Mens"
+            }
+        ],
+        "color": [
+            {
+                "type": "Red"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Chloe"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": 60
+        }
+    },
+    {
+        "id": 17,
+        "title": "Frank Cummings",
+        "imgf": "product-33.jpg",
+        "imgb": "product-34.jpg",
+        "category": [
+            {
+                "type": "Womens"
+            }
+        ],
+        "color": [
+            {
+                "type": "Blue"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Balenciaga"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": 70
+        }
+    },
+    {
+        "id": 18,
+        "title": "Lula Pope",
+        "imgf": "product-35.jpg",
+        "imgb": "product-36.jpg",
+        "category": [
+            {
+                "type": "Mens"
+            }
+        ],
+        "color": [
+            {
+                "type": "Gray"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Balmain"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": 80
+        }
+    },
+    {
+        "id": 19,
+        "title": "Brian Silva",
+        "imgf": "product-37.jpg",
+        "imgb": "product-38.jpg",
+        "category": [
+            {
+                "type": "Kids"
+            }
+        ],
+        "color": [
+            {
+                "type": "Green"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Burberry"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": 90
+        }
+    },
+    {
+        "id": 20,
+        "title": "Pearl Bowen",
+        "imgf": "product-39.jpg",
+        "imgb": "product-40.jpg",
+        "category": [
+            {
+                "type": "Womens"
+            }
+        ],
+        "color": [
+            {
+                "type": "Red"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Chloe"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": 100
+        }
+    },
+    {
+        "id": 21,
+        "title": "Georgia Price",
+        "imgf": "product-41.jpg",
+        "imgb": "product-42.jpg",
+        "category": [
+            {
+                "type": "Kids"
+            }
+        ],
+        "color": [
+            {
+                "type": "Black"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Adidas"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": 20
+        }
+    },
+    {
+        "id": 22,
+        "title": "Kenneth Mitchell",
+        "imgf": "product-43.jpg",
+        "imgb": "product-44.jpg",
+        "category": [
+            {
+                "type": "Mens"
+            }
+        ],
+        "color": [
+            {
+                "type": "Blue"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Balenciaga"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": 30
+        }
+    },
+    {
+        "id": 23,
+        "title": "Florence Sharp",
+        "imgf": "product-45.jpg",
+        "imgb": "product-46.jpg",
+        "category": [
+            {
+                "type": "Womens"
+            }
+        ],
+        "color": [
+            {
+                "type": "Gray"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Balmain"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": 40
+        }
+    },
+    {
+        "id": 24,
+        "title": "Myrtie Parks",
+        "imgf": "product-47.jpg",
+        "imgb": "product-48.jpg",
+        "category": [
+            {
+                "type": "Mens"
+            }
+        ],
+        "color": [
+            {
+                "type": "Green"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Burberry"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": 40
+        }
+    },
+    {
+        "id": 25,
+        "title": "Dollie Delgado",
+        "imgf": "product-49.jpg",
+        "imgb": "product-50.jpg",
+        "category": [
+            {
+                "type": "Kids"
+            }
+        ],
+        "color": [
+            {
+                "type": "Black"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Adidas"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": 50
+        }
+    },
+    {
+        "id": 26,
+        "title": "Jim Warner",
+        "imgf": "product-51.jpg",
+        "imgb": "product-52.jpg",
+        "category": [
+            {
+                "type": "Mens"
+            }
+        ],
+        "color": [
+            {
+                "type": "Red"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Chloe"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": 60
+        }
+    },
+    {
+        "id": 27,
+        "title": "Ryan Hale",
+        "imgf": "product-53.jpg",
+        "imgb": "product-54.jpg",
+        "category": [
+            {
+                "type": "Womens"
+            }
+        ],
+        "color": [
+            {
+                "type": "Blue"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Balenciaga"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": 70
+        }
+    },
+    {
+        "id": 28,
+        "title": "Louisa Ruiz",
+        "imgf": "product-55.jpg",
+        "imgb": "product-56.jpg",
+        "category": [
+            {
+                "type": "Mens"
+            }
+        ],
+        "color": [
+            {
+                "type": "Gray"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Balmain"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": 80
+        }
+    },
+    {
+        "id": 29,
+        "title": "Agnes Goodman",
+        "imgf": "product-57.jpg",
+        "imgb": "product-58.jpg",
+        "category": [
+            {
+                "type": "Kids"
+            }
+        ],
+        "color": [
+            {
+                "type": "Green"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Burberry"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": 90
+        }
+    },
+    {
+        "id": 30,
+        "title": "Augusta Tran",
+        "imgf": "product-59.jpg",
+        "imgb": "product-60.jpg",
+        "category": [
+            {
+                "type": "Womens"
+            }
+        ],
+        "color": [
+            {
+                "type": "Red"
+            }
+        ],
+        "brand": [
+            {
+                "type": "Chloe"
+            }
+        ],
+        "price": {
+            "min": 0,
+            "max": 100
+        }
+    }
+]

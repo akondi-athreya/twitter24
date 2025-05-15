@@ -1,0 +1,22 @@
+.distancebetweencards {
+    margin: 300px !important;
+}
+.centerpagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.main_box {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 80px;
+    column-gap: 100px;
+    row-gap: 40px;
+}
+.main_box_2 {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;  /* reduced from 80px */
+    column-gap: 80px;    /* reduced from 50px */
+    row-gap: 30px;       /* adjusted from 40px */
+}

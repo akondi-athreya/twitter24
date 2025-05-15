@@ -1,0 +1,211 @@
+/* forgot-password.css */
+
+:root {
+  --primary-color: #D51343;
+  --primary-hover: #000000;
+  --dark-color: #14171a;
+  --gray-color: #657786;
+  --light-gray: #aab8c2;
+  --very-light-gray: #e1e8ed;
+  --background-color: #f5f8fa;
+  --error-color: #e0245e;
+  --success-color: #17bf63;
+}
+
+.forgot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--background-color);
+  padding: 1.5rem;
+}
+
+.forgot-card {
+  width: 100%;
+  max-width: 480px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  padding: 2.5rem;
+  overflow: hidden;
+}
+
+.brand-logo h1 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 2rem 0;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+
+.forgot-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.forgot-header h1 {
+  color: var(--dark-color);
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.forgot-header p {
+  color: var(--gray-color);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.forgot-form {
+  margin-bottom: 1.5rem;
+}
+
+.form-field {
+  margin-bottom: 1.5rem;
+}
+
+.form-field input {
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 1rem;
+  border: 1px solid var(--very-light-gray);
+  border-radius: 8px;
+  background-color: #ffffff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-field input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(29, 161, 242, 0.15);
+}
+
+.form-field input.error-input {
+  border-color: var(--error-color);
+}
+
+.error-message {
+  color: var(--error-color);
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  margin-left: 2px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 14px;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submit-button:hover:not(:disabled) {
+  background-color: var(--primary-hover);
+}
+
+.submit-button:disabled {
+  background-color: var(--light-gray);
+  cursor: not-allowed;
+}
+
+.login-link {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--gray-color);
+  margin-top: 1.5rem;
+}
+
+.login-link a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.login-link a:hover {
+  color: var(--primary-hover);
+  text-decoration: underline;
+}
+
+/* Success message styles */
+.success-message {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.success-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  background-color: var(--success-color);
+  color: white;
+  font-size: 32px;
+  border-radius: 50%;
+  margin: 0 auto 1.5rem;
+}
+
+.success-message h2 {
+  color: var(--dark-color);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.success-message p {
+  color: var(--gray-color);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+}
+
+.success-message .instruction {
+  margin-top: 1rem;
+}
+
+.success-message .note {
+  font-size: 0.85rem;
+  color: var(--light-gray);
+  margin-top: 1rem;
+}
+
+.back-button {
+  margin-top: 2rem;
+  padding: 12px 24px;
+  background-color: transparent;
+  color: var(--primary-color);
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: 1px solid var(--primary-color);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.back-button:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+}
+
+@media (max-width: 576px) {
+  .forgot-card {
+    padding: 1.5rem;
+  }
+
+  .brand-logo h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .forgot-header h1 {
+    font-size: 1.5rem;
+  }
+}

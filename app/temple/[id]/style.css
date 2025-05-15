@@ -1,0 +1,158 @@
+/* TempleDetails.css */
+
+.container123 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+  }
+  
+  .temple-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+  }
+  
+  .temple-header {
+    background: #D61244;
+    padding: 1.5rem;
+    color: white;
+  }
+  
+  .temple-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .location-link {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    text-decoration: underline;
+    color: white;
+  }
+  
+  .location-icon {
+    margin-right: 0.25rem;
+  }
+  
+  .section {
+    padding: 1.5rem;
+  }
+  
+  .section-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .photo-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .photo-item {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    height: 16rem;
+    position: relative;
+  }
+  
+  .temple-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .audio-section {
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  .audio-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .audio-item {
+    background-color: #f3f4f6;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .audio-label {
+    font-size: 0.875rem;
+    color: #4b5563;
+    margin-bottom: 0.5rem;
+  }
+  
+  .audio-player {
+    width: 100%;
+  }
+  
+  .description-section {
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  .description-text {
+    color: #374151;
+  }
+  
+  .uploader-section {
+    border-top: 1px solid #e5e7eb;
+    background-color: #f9fafb;
+  }
+  
+  .uploader-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .uploader-avatar {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 9999px;
+    background-color: #3b82f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+  }
+  
+  .uploader-details {
+    margin-left: 1rem;
+  }
+  
+  .uploader-name {
+    font-weight: 500;
+  }
+  
+  .uploader-email {
+    font-size: 0.875rem;
+    color: #4b5563;
+  }
+  
+  .metadata-section {
+    padding: 1.5rem;
+    border-top: 1px solid #e5e7eb;
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  .loading-message, .error-message {
+    text-align: center;
+  }
+  
+  .error-message {
+    color: #dc2626;
+  }
+  
+  /* Media Queries */
+  @media (min-width: 768px) {
+    .photo-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
