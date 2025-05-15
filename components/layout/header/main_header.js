@@ -60,9 +60,9 @@ export default function Header6({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                 </ul>
                                             </li>
                                             <li className="has-dropdown">
-                                                <Link href="/store">Store</Link>
+                                                <Link href="/store">Local Stores</Link>
                                                 <ul className="submenu">
-                                                    <li><Link href="/store">Store</Link></li>
+                                                    <li><Link href="/store">Local Stores</Link></li>
                                                     <li><Link href="/products">Products</Link></li>
 
                                                     {/* <li><Link href="/shop-2">Shop 2</Link></li>

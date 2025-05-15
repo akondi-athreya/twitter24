@@ -40,7 +40,7 @@ export default function MobileMenu() {
                                 {/* <Link className="mean-expand" onClick={() => handleClick(1)} href="#" style={{ fontSize: 18 }}><i className="fal fa-plus" /></Link> */}
                             </li>
                             <li className="has-dropdown">
-                                <Link href="/store">Store</Link>
+                                <Link href="/store">Local Stores</Link>
                                 {/* <ul className="submenu" style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
                                     <li><Link href="/shop">Shop</Link></li>
                                     <li><Link href="/shop-2">Shop 2</Link></li>
