@@ -158,6 +158,29 @@ const FilterShopBox = ({ searchRef }) => {
     return (
         <>
             <div className="product-filter-content mb-40">
+                <div className="row align-items-center justify-content-center">
+                    <div className="col-sm-6">
+                        <div className="product-filter-content__text">
+                            <input
+                                className="form-control"
+                                type="text"
+                                placeholder="Search Temples"
+                                onChange={(e) => {
+                                    const searchTerm = e.target.value.toLowerCase();
+                                    const newData = data.filter((item) => {
+                                        return (
+                                            (item.name && item.name.toLowerCase().includes(searchTerm)) ||
+                                            (item.description && item.description.toLowerCase().includes(searchTerm))
+                                        );
+                                    });
+                                    setFilterData(newData);
+                                    setCurrentPage(1); // Reset to first page on new search
+                                }}
+                                style={{margin: "0 0 50px 0", height: "50px", borderRadius: "10px"}}
+                            />
+                        </div>
+                    </div>
+                </div>
                 <div className="row align-items-center">
                     <div className="col-sm-6">
                         <div className="product-item-count">
@@ -225,7 +248,7 @@ const FilterShopBox = ({ searchRef }) => {
                                 ) : (
                                     !loading && (
                                         <div className="col-12 text-center py-5">
-                                            <p>No Temples Available</p>
+                                            <h2>No Temples Data Available</h2>
                                         </div>
                                     )
                                 )}

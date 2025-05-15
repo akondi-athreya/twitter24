@@ -47,9 +47,10 @@ export default function Contact() {
                                                 <ul>
                                                     <li>
                                                         <i className="fal fa-map-marker-alt" />
-                                                        SUDHA COLONYN<br />STREET NO 520<br />PEDDAPURAM - 533437 <br />
-                                                        KAKINADA DISTRICT<br />
-                                                        ANDHRA PRADESH
+                                                        {/* SUDHA COLONYN<br />STREET NO 520<br />PEDDAPURAM - 533437 <br /> */}
+                                                        KAKINADA DISTRICT,<br />
+                                                        ANDHRA PRADESH,<br />
+                                                        INDIA.
                                                     </li>
                                                 </ul>
                                             </div>

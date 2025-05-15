@@ -127,7 +127,7 @@ export default function Header6({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                     <li><Link href="/blog-details">Blog Details</Link></li>
                                                 </ul>
                                             </li> */}
-                                            <li><Link href="/temple">Temple</Link></li>
+                                            <li><Link href="/temple">Digi Store</Link></li>
                                             <li><Link href="/mylocalupdate">Updates</Link></li>
                                             <li><Link href="/contact">Contact</Link></li>
                                         </ul>

@@ -80,7 +80,7 @@ export default function MobileMenu() {
                                 <Link className="mean-expand" onClick={() => handleClick(3)} href="#" style={{ fontSize: 18 }}><i className="fal fa-plus" /></Link> */}
                             </li>
                             <li>
-                                <Link href="/temple">Temple</Link>
+                                <Link href="/temple">Digi Store</Link>
                             </li>
                             <li>
                                 <Link href="/mylocalupdate">Updates</Link>

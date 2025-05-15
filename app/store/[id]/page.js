@@ -514,7 +514,7 @@ export default function ShopDetails() {
                                                     </li>
                                                     <li className="nav-item" onClick={() => handleOnClick(3)}>
                                                         <button className={activeIndex == 3 ? "nav-links active" : "nav-links"}>
-                                                            Reviews ({review?.length})
+                                                            Raise Issue ({review?.length})
                                                         </button>
                                                     </li>
                                                 </ul>

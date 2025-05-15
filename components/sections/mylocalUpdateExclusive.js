@@ -27,7 +27,7 @@ export default function Exclusive() {
         }
         axios.get(baseurl + "/api/user/mylocalupates/premiumuserbanner")
             .then((res) => {
-                // console.log(res.data);
+                console.log(res.data);
                 if (res.data.length < 10) {
                     setBannerData(res.data);
                     return;
@@ -78,7 +78,7 @@ export default function Exclusive() {
                                     loop={true}
                                     pagination={{ clickable: true }}
                                     modules={[Autoplay, Pagination]} // Register Autoplay and Pagination modules
-                                    onSwiper={(swiper) => console.log(swiper)}
+                                    onSwiper={(swiper) => console.log()}
                                 >
                                     {
                                         bannerData?.length > 0 ? bannerData.map((item, index) => {
@@ -108,7 +108,7 @@ export default function Exclusive() {
                                         loop={true}
                                         pagination={{ clickable: true }}
                                         modules={[Autoplay, Pagination]} // Register Autoplay and Pagination modules
-                                        onSwiper={(swiper) => console.log(swiper)}
+                                        onSwiper={(swiper) => console.log()}
                                     >
                                         {
                                             premiumBannerData?.length > 0 ? premiumBannerData.map((item, index) => {
