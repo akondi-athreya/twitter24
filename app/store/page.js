@@ -1,35 +1,53 @@
+// app/store/page.js
+
 "use client";
 import Layout from "@/components/layout/Layout";
 import FilterSidebar from "@/components/shop/FilterSidebar";
 import HotDeals from "@/components/sections/hotDeals";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { FilterProvider } from "@/context/FilterContext";
 import './style.css';
-import dynamic from 'next/dynamic';
 import Loading from './loading';
-const FilterShopBox = dynamic(() => import('@/components/shop/newFilterShopBox'), {
-  ssr: false,
-  loading: () => <Loading />
+import dynamic from "next/dynamic";
+
+
+const FilterShopBox = dynamic(() =>
+    import('@/components/shop/newFilterShopBox')
+        .catch((err) => {
+            if (
+                err?.name === 'ChunkLoadError' ||
+                err?.message?.includes('Loading chunk') ||
+                err?.message?.includes('failed')
+            ) {
+                console.warn('Chunk load failed, reloading page...');
+                if (typeof window !== 'undefined') {
+                    window.location.reload();
+                }
+            }
+            throw err;
+        }), {
+    ssr: false,
+    loading: () => <Loading />
 });
 
 export default function product() {
     const [activeIndex, setActiveIndex] = useState(2);
     const [searchTerm, setSearchTerm] = useState('');
-    
+
     const handleOnClick = (index) => setActiveIndex(index);
-    
+
     const handleSearch = (e) => {
         console.log(e.target.value);
         setSearchTerm(e.target.value);
     };
-    
+
     return (
         <FilterProvider>
             <Layout headerStyle={6} footerStyle={1} breadcrumbTitle="Store's">
                 <div className="search_box_area">
-                    <input 
-                        type="text" 
-                        placeholder="Search Store..." 
+                    <input
+                        type="text"
+                        placeholder="Search Store..."
                         onChange={handleSearch}
                         value={searchTerm}
                     />
