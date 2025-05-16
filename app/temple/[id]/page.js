@@ -137,7 +137,7 @@ export default function TempleDetails() {
                             {/* Temple Description */}
                             <div className="section description-section">
                                 <h2 className="section-title">Description</h2>
-                                <p className="description-text">{templeData?.description}</p>
+                                <p className="description-text" style={{ whiteSpace: 'pre-line' }}>{templeData?.description}</p>
                             </div>
 
                             {/* Uploader Information */}
